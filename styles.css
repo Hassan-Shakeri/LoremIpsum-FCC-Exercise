@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+}
+
+.section-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    width: 100%;
+    height: auto;
+}
+
+.lorem-form {
+    height: 100px;
+}
+
+#amount {
+    padding: 5px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(170, 187, 139);
+}
+
+.lorem-text {
+    text-align: center;
+    width: 70%;
+}
